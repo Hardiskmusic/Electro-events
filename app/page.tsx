@@ -1,7 +1,18 @@
+import { Navbar } from "../components/Navbar"
+import { MainBanner } from "../components/MainBanner"
+import { LineUp } from "../components/LineUp"
+
+export const metadata = {
+  title: "Electro-events",
+  description: "Plateforme d'événements électro en Suisse",
+}
+
 export default function HomePage() {
   return (
-    <main>
-      <h1>Bienvenue sur Electro-events</h1>
-    </main>
+    <>
+      <Navbar />
+      <MainBanner />
+      <LineUp />
+    </>
   )
 }
