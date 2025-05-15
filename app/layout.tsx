@@ -1,3 +1,5 @@
+import './globals.css';
+
 export const metadata = {
   title: 'Electro-events',
   description: 'Plateforme d’événements électro',
