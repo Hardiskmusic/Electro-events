@@ -1,7 +1,7 @@
 import { supabase } from "@/lib/supabase";
-import { LineUp } from "../components/LineUp";
-import { MainBanner } from "../components/MainBanner";
-import { Navbar } from "../components/Navbar";
+import { LineUp } from "./components/LineUp";
+import { MainBanner } from "./components/MainBanner";
+import { Navbar } from "./components/Navbar";
 
 type Event = {
   id: string;
